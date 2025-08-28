@@ -132,32 +132,31 @@ https://github.com/Habrador/Unity-Programming-Patterns
 
 # CODING CONVENTION GUIDE
 
-General C# Coding Conventions
-• Classes, Structs, Interfaces: PascalCase (e.g., PlayerController, EnemyAI)
-• Methods: PascalCase (e.g., MovePlayer(), TakeDamage())
-• Variables (fields, locals): camelCase (e.g., health, playerSpeed)
-• Constants / Static readonly: ALL_CAPS_WITH_UNDERSCORES (e.g., MAX_HEALTH)
-• Private fields: prefix with _ (e.g., _health, _rigidbody)
-• Braces: Use consistent style (Allman or K&R;).
-• Indentation: 4 spaces, no tabs.
-• Comments: Use /// for XML docs, // for inline comments.
+General C# Coding Conventions  
+• Classes, Structs, Interfaces: PascalCase (e.g., PlayerController, EnemyAI)  
+• Methods: PascalCase (e.g., MovePlayer(), TakeDamage())  
+• Variables (fields, locals): camelCase (e.g., health, playerSpeed)  
+• Constants / Static readonly: ALL_CAPS_WITH_UNDERSCORES (e.g., MAX_HEALTH)  
+• Private fields: prefix with _ (e.g., _health, _rigidbody)  
+• Braces: Use consistent style (Allman or K&R;).  
+• Indentation: 4 spaces, no tabs.  
+• Comments: Use /// for XML docs, // for inline comments.  
 
-Unity-Specific Conventions
-• Organize MonoBehaviour lifecycle methods in order: Awake, Start, Update, FixedUpdate,
-OnDestroy.
-• Use [SerializeField] for private fields exposed in Inspector.
-• Keep fields private unless public access is needed.
-• Organize scripts into functional folders (Gameplay, UI, Managers, Utilities).
-• Avoid magic numbers—use constants or ScriptableObjects.
-• Cache components in Awake instead of repeated GetComponent() calls.
+Unity-Specific Conventions  
+• Organize MonoBehaviour lifecycle methods in order: Awake, Start, Update, FixedUpdate, OnDestroy.  
+• Use [SerializeField] for private fields exposed in Inspector.  
+• Keep fields private unless public access is needed.  
+• Organize scripts into functional folders (Gameplay, UI, Managers, Utilities).  
+• Avoid magic numbers—use constants or ScriptableObjects.  
+• Cache components in Awake instead of repeated GetComponent() calls.  
 
-Example Script Structure
-• Fields (serialized and private).
-• Unity lifecycle methods (Awake, Start, Update, etc.).
-• Custom methods grouped logically.
-• Use clear naming and avoid unnecessary complexity
+Example Script Structure  
+• Fields (serialized and private).  
+• Unity lifecycle methods (Awake, Start, Update, etc.).  
+• Custom methods grouped logically.  
+• Use clear naming and avoid unnecessary complexity  
 
-Example: PlayerController Script
+Example: PlayerController Script  
 '''
 using UnityEngine;
 public class PlayerController : MonoBehaviour
