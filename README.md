@@ -1,21 +1,33 @@
 # Unity6-StarterKit
 Starter Kit for Unity6
 
-1. Unity version: 6000.2.1f1
-2. Platform: Windows, Android
-3. Third-party plugins from Unity Asset Store(Free assets)
+INTRODUCTION
+- Brief Project Description: Before starting a new project with Unity 6, we have gathered the necessary development assets.
+- Project Goals and Direction
+  - Shorten the development schedule.
+  - Improve productivity by creating modules that are commonly used in game development.
+  - Continuously enhance the framework to help programmers improve their skills and accumulate technical expertise.
+- Rendering Pipeline: built-in, URP, HDRP
+- 2D & 3D supported
+- All source code, including the framework, has been made public. (no dll)
+- Unity version: 6000.2.1f1
+- Platform: Windows, Android
+- License: MIT
+- Unity Project Window screenshot:
+
+1. Third-party plugins from Unity Asset Store(Free assets)
    1. Pools: https://assetstore.unity.com/packages/tools/utilities/pools-231438
-   3. DOTween: https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
-   4. In-game Debug Console: https://assetstore.unity.com/packages/tools/gui/in-game-debug-console-68068
-   5. PlayerPrefs Editor: https://assetstore.unity.com/packages/tools/utilities/playerprefs-editor-167903
-   6. Ultimate FPS Counter: https://assetstore.unity.com/packages/tools/gui/graphy-ultimate-fps-counter-stats-monitor-debugger-105778
-   7. Serialized Dictionary: https://assetstore.unity.com/packages/tools/utilities/serialized-dictionary-243052
-   8. Extenject Dependency Injection IOC: https://assetstore.unity.com/packages/tools/utilities/extenject-dependency-injection-ioc-157735
-   9. Simple Scroll-Snap: https://assetstore.unity.com/packages/tools/gui/simple-scroll-snap-140884
-   10. JSON Object: https://assetstore.unity.com/packages/tools/input-management/json-object-710
-   11. Singleton Pattern: https://assetstore.unity.com/packages/tools/integration/singleton-liberation-inherit-from-your-own-monobehaviour-54896
-4.  Design Pattern Samples: https://github.com/Habrador/Unity-Programming-Patterns
-5.  Framework
+   2. DOTween: https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
+   3. In-game Debug Console: https://assetstore.unity.com/packages/tools/gui/in-game-debug-console-68068
+   4. PlayerPrefs Editor: https://assetstore.unity.com/packages/tools/utilities/playerprefs-editor-167903
+   5. Ultimate FPS Counter: https://assetstore.unity.com/packages/tools/gui/graphy-ultimate-fps-counter-stats-monitor-debugger-105778
+   6. Serialized Dictionary: https://assetstore.unity.com/packages/tools/utilities/serialized-dictionary-243052
+   7. Extenject Dependency Injection IOC: https://assetstore.unity.com/packages/tools/utilities/extenject-dependency-injection-ioc-157735
+   8. Simple Scroll-Snap: https://assetstore.unity.com/packages/tools/gui/simple-scroll-snap-140884
+   9.  JSON Object: https://assetstore.unity.com/packages/tools/input-management/json-object-710
+   10. Singleton Pattern: https://assetstore.unity.com/packages/tools/integration/singleton-liberation-inherit-from-your-own-monobehaviour-54896
+2.  Design Pattern Samples: https://github.com/Habrador/Unity-Programming-Patterns
+3.  Framework
     1.  Addressables
         1.  SpriteAtlasContainer.cs
     2.  Animation
