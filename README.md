@@ -131,5 +131,5 @@ https://github.com/Habrador/Unity-Programming-Patterns
         2.  CommonUtils.cs
 
 # CODING CONVENTION GUIDE  
-(https://avangarde-software.com/unity-coding-guidelines-basic-best-practices/)
+(https://avangarde-software.com/unity-coding-guidelines-basic-best-practices/)  
 (https://github.com/kodecocodes/c-sharp-style-guide)
