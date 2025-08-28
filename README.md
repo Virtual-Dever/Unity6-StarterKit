@@ -16,9 +16,36 @@ INTRODUCTION
 - Unity Project Window screenshot:
 <img width="187" height="580" alt="image" src="https://github.com/user-attachments/assets/582c5afb-d5d1-4068-910e-54507a1fe976" />
 
+PROPS AND CONS OF FRAMEWORK
+PROPS
+1. Reusability
+   1. Common features (input handling, UI system, scene management, data handling, etc.) can be reused across multiple projects.
+2. Faster Development
+   1. Reduces repetitive coding, which shortens the development schedule.
+3. Consistency
+   1. Maintains a uniform code style and structure throughout the project, making collaboration easier.
+4. Scalability
+   1. Modular structure allows easy addition and expansion of new features.
+5. Learning and Skill Accumulation
+   1. Designing and implementing a framework improves programmers’ design skills and architectural understanding.
+6. Fewer Bugs
+   1. Reusing well-tested common code reduces the chance of errors when writing new code.
 
+CONS
+1. High Initial Development Cost
+   1. Designing and building the framework takes significant time and effort.
+2. Over-generalization
+   1. Trying to make it too generic can result in an unnecessarily complex structure.
+3. Maintenance Burden
+   1. As the framework grows, more resources are needed for bug fixes, refactoring, and documentation.
+4. Learning Curve
+   1. Team members may need extra time to understand the framework’s structure and rules.
+5. Technical Lock-in
+   1. Heavy reliance on a framework can limit flexibility when adopting new engine features or third-party libraries.
+6. Mismatch with Projects
+   1. Some projects may not need all the features, making the framework inefficient or excessive.
 
-1. Third-party plugins from Unity Asset Store(Free assets)
+7. Third-party plugins from Unity Asset Store(Free assets)
    1. Pools: https://assetstore.unity.com/packages/tools/utilities/pools-231438
    2. DOTween: https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
    3. In-game Debug Console: https://assetstore.unity.com/packages/tools/gui/in-game-debug-console-68068
@@ -29,8 +56,8 @@ INTRODUCTION
    8. Simple Scroll-Snap: https://assetstore.unity.com/packages/tools/gui/simple-scroll-snap-140884
    9.  JSON Object: https://assetstore.unity.com/packages/tools/input-management/json-object-710
    10. Singleton Pattern: https://assetstore.unity.com/packages/tools/integration/singleton-liberation-inherit-from-your-own-monobehaviour-54896
-2.  Design Pattern Samples: https://github.com/Habrador/Unity-Programming-Patterns
-3.  Framework
+8.  Design Pattern Samples: https://github.com/Habrador/Unity-Programming-Patterns
+9.  Framework
     1.  Addressables
         1.  SpriteAtlasContainer.cs
     2.  Animation
