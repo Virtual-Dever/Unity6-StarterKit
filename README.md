@@ -1,7 +1,7 @@
 # Unity6-StarterKit
 Starter Kit for Unity6
 
-INTRODUCTION
+# INTRODUCTION
 - Brief Project Description: Before starting a new project with Unity 6, we have gathered the necessary development assets.
 - Project Goals and Direction
   - Shorten the development schedule.
@@ -16,8 +16,7 @@ INTRODUCTION
 - Unity Project Window screenshot:
 <img width="187" height="580" alt="image" src="https://github.com/user-attachments/assets/582c5afb-d5d1-4068-910e-54507a1fe976" />
 
-PROPS AND CONS OF FRAMEWORK
-PROPS
+# PROPS
 1. Reusability
    1. Common features (input handling, UI system, scene management, data handling, etc.) can be reused across multiple projects.
 2. Faster Development
@@ -31,7 +30,7 @@ PROPS
 6. Fewer Bugs
    1. Reusing well-tested common code reduces the chance of errors when writing new code.
 
-CONS
+# CONS
 1. High Initial Development Cost
    1. Designing and building the framework takes significant time and effort.
 2. Over-generalization
@@ -45,7 +44,7 @@ CONS
 6. Mismatch with Projects
    1. Some projects may not need all the features, making the framework inefficient or excessive.
 
-7. Third-party plugins from Unity Asset Store(Free assets)
+# Third-party plugins from Unity Asset Store(Free assets)
    1. Pools: https://assetstore.unity.com/packages/tools/utilities/pools-231438
    2. DOTween: https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
    3. In-game Debug Console: https://assetstore.unity.com/packages/tools/gui/in-game-debug-console-68068
@@ -56,8 +55,8 @@ CONS
    8. Simple Scroll-Snap: https://assetstore.unity.com/packages/tools/gui/simple-scroll-snap-140884
    9.  JSON Object: https://assetstore.unity.com/packages/tools/input-management/json-object-710
    10. Singleton Pattern: https://assetstore.unity.com/packages/tools/integration/singleton-liberation-inherit-from-your-own-monobehaviour-54896
-8.  Design Pattern Samples: https://github.com/Habrador/Unity-Programming-Patterns
-9.  Framework
+#  Design Pattern Samples: https://github.com/Habrador/Unity-Programming-Patterns
+#  Framework
     1.  Addressables
         1.  SpriteAtlasContainer.cs
     2.  Animation
