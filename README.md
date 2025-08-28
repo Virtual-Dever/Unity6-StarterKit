@@ -14,7 +14,8 @@ INTRODUCTION
 - Platform: Windows, Android
 - License: MIT
 - Unity Project Window screenshot:
-<img width="196" height="582" alt="image" src="https://github.com/user-attachments/assets/0c7c4d00-9766-4a60-8fa9-dcb387ad80f7" />
+<img width="187" height="580" alt="image" src="https://github.com/user-attachments/assets/582c5afb-d5d1-4068-910e-54507a1fe976" />
+
 
 
 1. Third-party plugins from Unity Asset Store(Free assets)
