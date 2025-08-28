@@ -157,39 +157,44 @@ Example Script Structure
 • Use clear naming and avoid unnecessary complexity  
 
 Example: PlayerController Script  
-'''
-using UnityEngine;
-public class PlayerController : MonoBehaviour
-{
-[SerializeField] private float _moveSpeed = 5f;
-[SerializeField] private int _maxHealth = 100;
-private Rigidbody _rb;
-private int _currentHealth;
-private void Awake()
-{
-_rb = GetComponent<Rigidbody>();
-_currentHealth = _maxHealth;
+```cs
+using UnityEngine;  
+public class PlayerController : MonoBehaviour  
+{  
+    [SerializeField] private float _moveSpeed = 5f;  
+    [SerializeField] private int _maxHealth = 100;  
+    private Rigidbody _rb;  
+    private int _currentHealth;  
+    private void Awake()  
+    {  
+    _rb = GetComponent<Rigidbody>();  
+    _currentHealth = _maxHealth;  
+    }  
+
+    private void Update()
+    {
+        Move();
+    }
+
+    private void Move()
+    {
+    float h = Input.GetAxis("Horizontal");float v = Input.GetAxis("Vertical");
+    Vector3 direction = new Vector3(h, 0, v).normalized;
+    _rb.MovePosition(transform.position + direction * _moveSpeed * Time.deltaTime);
+    }
+
+    public void TakeDamage(int amount)
+    {
+        _currentHealth -= amount;
+        if (_currentHealth <= 0)
+        {   
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);
+    }
 }
-private void Update()
-{
-Move();
-}
-private void Move()
-{
-float h = Input.GetAxis("Horizontal");float v = Input.GetAxis("Vertical");
-Vector3 direction = new Vector3(h, 0, v).normalized;
-_rb.MovePosition(transform.position + direction * _moveSpeed * Time.deltaTime);
-}
-public void TakeDamage(int amount)
-{
-_currentHealth -= amount;
-if (_currentHealth <= 0)
-{
-Die();
-}
-}
-private void Die()
-{
-Destroy(gameObject);
-}
-}'''
+```
