@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -902,10 +902,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71193f072c1648a1b1f1a46d300b7f5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabNormalPopup: {fileID: 9061778131643364261, guid: d5589702378d3c442b48f5b78f72e2bc,
-    type: 3}
-  prefabImagePopup: {fileID: 9061778131643364261, guid: 5c982bc70659498489e81a8a689e0835,
-    type: 3}
+  prefabNormalPopup: {fileID: 9061778131643364261, guid: d5589702378d3c442b48f5b78f72e2bc, type: 3}
+  prefabImagePopup: {fileID: 9061778131643364261, guid: 5c982bc70659498489e81a8a689e0835, type: 3}
   m_SpriteTest: {fileID: 0}
 --- !u!1 &786330929
 GameObject:

@@ -590,8 +590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Type: 6
   m_ButtonClose: {fileID: 2936295356147476370}
-  m_PrefabButton: {fileID: 8063292118091173993, guid: a73d62d1a67166d4e9b7152962f89e23,
-    type: 3}
+  m_PrefabButton: {fileID: 8063292118091173993, guid: a73d62d1a67166d4e9b7152962f89e23, type: 3}
   m_TextTitle: {fileID: 4082457097242184464}
   m_TextContent: {fileID: 5980228244331036728}
   m_ParentOfButtons: {fileID: 4083014107905175129}

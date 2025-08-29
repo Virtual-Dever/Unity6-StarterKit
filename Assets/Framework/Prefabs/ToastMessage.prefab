@@ -226,5 +226,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TextMessage: {fileID: 258961934660235611}
-  m_TransformParent: {fileID: 0}
   m_LifeTime: 1
