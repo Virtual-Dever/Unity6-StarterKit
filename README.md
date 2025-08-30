@@ -1,135 +1,43 @@
-# Unity6-StarterKit
-Starter Kit for Unity6
+Great! Here’s a polished **GitHub README-style version** of your Unity Starter Kit introduction, with clear sections and formatting:
 
-# INTRODUCTION
-- Brief Project Description: Before starting a new project with Unity 6, we have gathered the necessary development assets.
-- Project Goals and Direction
-  - Shorten the development schedule.
-  - Improve productivity by creating modules that are commonly used in game development.
-  - Continuously enhance the framework to help programmers improve their skills and accumulate technical expertise.
-- Rendering Pipeline: built-in, URP, HDRP
-- 2D & 3D supported
-- All source code, including the framework, has been made public. (no dll)
-- Unity version: 6000.2.1f1
-- Platform: Windows, Android
-- License: MIT
-- Unity Project Window screenshot:
-<img width="187" height="580" alt="image" src="https://github.com/user-attachments/assets/582c5afb-d5d1-4068-910e-54507a1fe976" />
+---
 
-# PROPS
-1. Reusability
-   1. Common features (input handling, UI system, scene management, data handling, etc.) can be reused across multiple projects.
-2. Faster Development
-   1. Reduces repetitive coding, which shortens the development schedule.
-3. Consistency
-   1. Maintains a uniform code style and structure throughout the project, making collaboration easier.
-4. Scalability
-   1. Modular structure allows easy addition and expansion of new features.
-5. Learning and Skill Accumulation
-   1. Designing and implementing a framework improves programmers’ design skills and architectural understanding.
-6. Fewer Bugs
-   1. Reusing well-tested common code reduces the chance of errors when writing new code.
+# Unity Starter Kit v0.1.3
 
-# CONS
-1. High Initial Development Cost
-   1. Designing and building the framework takes significant time and effort.
-2. Over-generalization
-   1. Trying to make it too generic can result in an unnecessarily complex structure.
-3. Maintenance Burden
-   1. As the framework grows, more resources are needed for bug fixes, refactoring, and documentation.
-4. Learning Curve
-   1. Team members may need extra time to understand the framework’s structure and rules.
-5. Technical Lock-in
-   1. Heavy reliance on a framework can limit flexibility when adopting new engine features or third-party libraries.
-6. Mismatch with Projects
-   1. Some projects may not need all the features, making the framework inefficient or excessive.
+## 📌 Overview
 
-# Third-party plugins from Unity Asset Store(Free assets)
-   1. Pools: https://assetstore.unity.com/packages/tools/utilities/pools-231438
-   2. DOTween: https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
-   3. In-game Debug Console: https://assetstore.unity.com/packages/tools/gui/in-game-debug-console-68068
-   4. PlayerPrefs Editor: https://assetstore.unity.com/packages/tools/utilities/playerprefs-editor-167903
-   5. Ultimate FPS Counter: https://assetstore.unity.com/packages/tools/gui/graphy-ultimate-fps-counter-stats-monitor-debugger-105778
-   6. Serialized Dictionary: https://assetstore.unity.com/packages/tools/utilities/serialized-dictionary-243052
-   7. Extenject Dependency Injection IOC: https://assetstore.unity.com/packages/tools/utilities/extenject-dependency-injection-ioc-157735
-   8. Simple Scroll-Snap: https://assetstore.unity.com/packages/tools/gui/simple-scroll-snap-140884
-   9.  JSON Object: https://assetstore.unity.com/packages/tools/input-management/json-object-710
-   10. Singleton Pattern: https://assetstore.unity.com/packages/tools/integration/singleton-liberation-inherit-from-your-own-monobehaviour-54896
-  
+**Unity Starter Kit v0.1.3** is a development package designed to simplify the process of starting new Unity projects.
+It bundles essential plugins, tools, design pattern samples, and a custom framework to accelerate game development.
 
-#  Design Pattern Samples:
+## 📂 Components
 
-https://github.com/Habrador/Unity-Programming-Patterns
+The Starter Kit is divided into three main parts:
 
-#  Framework
-    1.  Addressables
-        1.  SpriteAtlasContainer.cs
-    2.  Animation
-        1.  UI_AnimationPopup.cs
-        2.  UI_AnimationText.cs
-    3.  AssetsLoader
-        1.  BaseLoader.cs
-        2.  SpriteLoader.cs
-        3.  TexturesLoader.cs
-    4.  Audio
-        1.  SoundContainer.cs
-        2.  SoundController.cs
-    5.  Fonts
-    6.  Plugins
-        1.  AssetManager
-        2.  DOTWeen
-        3.  Pools
-        4.  Singleton
-    7.  Prefabs
-    8.  Scenes
-    9.  Scripts
-        1.  FrameworkDefine.cs
-        2.  UserInfoManager.cs
-    10. UI
-        1.  Base
-            1.  PopupBase.cs
-            2.  UI_Base.cs
-            3.  UI_Button.cs
-            4.  UI_Manager.cs
-            5.  UI_Model.cs
-            6.  UI_Panel.cs
-            7.  UI_Type.cs
-        2.  Board
-            1.  BoardFactory.cs
-            2.  BoardHeaderView.cs
-            3.  BoardPageController.cs
-            4.  BoardPageView.cs
-            5.  BoardTestData.cs
-            6.  ItemViewBase.cs
-            7.  ItemViewImage.cs
-            8.  ItemViewText.cs
-            9.  PageBoardTable.cs
-            10. ScrollBoardTable.cs
-            11. TableModel.cs
-        3.  Popup
-            1.  Dialogues
-                1.  DialogueController.cs
-                2.  DialogueModel.cs
-                3.  DialoguePopup.cs
-                4.  DialogueView.cs
-            2.  Test
-                1.  PopupTester.cs
-            3.  ToastMessage
-                1.  ToastContainer.cs
-                2.  ToastMessage.cs
-                3.  ToastView.cs
-            4.  PopupContainer.cs
-            5.  PopupFactory.cs
-            6.  PopupImage.cs
-            7.  PopupModel.cs
-            8.  PopupNormal.cs
-    11. Utils
-        1.  Random
-            1.  SimpleSystemRandom.cs
-            2.  UnityMersenneTwister.cs
-            3.  UnityNormalDistribution.cs
-        2.  CommonUtils.cs
+1. **Plugins & Tools**
 
-# CODING CONVENTION GUIDE  
-(https://avangarde-software.com/unity-coding-guidelines-basic-best-practices/)  
-(https://github.com/kodecocodes/c-sharp-style-guide)
+   * Free assets downloaded from the Unity Asset Store.
+   * Commonly required for most game development projects.
+
+2. **Design Pattern Samples**
+
+   * Sample codes demonstrating widely used design patterns in Unity.
+
+3. **Custom Framework**
+
+   * A lightweight framework developed to streamline project setup and improve code structure.
+
+## 📝 Brief Project Description
+
+Before starting a new project with Unity 6, we have gathered the necessary development assets.
+
+This project originated from the hassle of repeatedly fetching the same common plugins and tools from the Unity Asset Store every time a new project was created. To solve this, frequently used assets were bundled together along with the custom framework.
+
+## 🎯 Project Goals and Direction
+
+* **Shorten the development schedule**
+* **Improve productivity** by creating reusable modules commonly used in game development
+* **Continuously enhance the framework** to help programmers improve their skills and accumulate technical expertise
+
+---
+
+👉 Would you like me to also make this look like a **formal product landing page (marketing-style)** with a more **visual/engaging tone** instead of just a technical README?
