@@ -1,7 +1,3 @@
-Great! Here’s a polished **GitHub README-style version** of your Unity Starter Kit introduction, with clear sections and formatting:
-
----
-
 # Unity Starter Kit v0.1.3
 
 ## 📌 Overview
