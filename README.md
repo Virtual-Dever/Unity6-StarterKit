@@ -41,7 +41,7 @@ This project originated from the hassle of repeatedly fetching the same common p
 * **Improve productivity** by creating reusable modules commonly used in game development
 * **Continuously enhance the framework** to help programmers improve their skills and accumulate technical expertise
 
-## Third-party plugins from Unity Asset Store(Free assets)
+## 🛍 Third-party plugins from Unity Asset Store(Free assets)
    1. Pools: https://assetstore.unity.com/packages/tools/utilities/pools-231438
    2. DOTween: https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
    3. In-game Debug Console: https://assetstore.unity.com/packages/tools/gui/in-game-debug-console-68068
@@ -57,7 +57,7 @@ This project originated from the hassle of repeatedly fetching the same common p
 
 (https://github.com/Habrador/Unity-Programming-Patterns)
 
-##  Framework
+## 🥣 Framework
     1.  Addressables
         1.  SpriteAtlasContainer.cs
     2.  Animation
